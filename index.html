@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadwal Pelajaran</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ===== Header / Banner ===== -->
+    <header class="banner">
+      <div class="banner-title">
+        <span class="eyebrow">Belajar bersama, meraih mimpi 🌟</span>
+        <h1 id="pageTitle">JADWAL PELAJARAN</h1>
+        <span class="kelas-pill" id="schoolName"></span>
+        <p class="banner-sub" id="schoolYear"></p>
+      </div>
+      <div class="banner-date">
+        <span class="cal-label">📅 Minggu Ini</span>
+        <div class="cal-range" id="weekRange">-</div>
+      </div>
+    </header>
+
+    <!-- ===== Tabel Jadwal (tampil di layar lebar) ===== -->
+    <section class="table-card">
+      <table class="jadwal">
+        <thead>
+          <tr id="theadRow"></tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+
+    <!-- ===== Jadwal versi Card (tampil di HP) ===== -->
+    <section class="mobile-schedule">
+      <div class="day-tabs" id="dayTabs"></div>
+      <div class="day-cards" id="dayCards"></div>
+    </section>
+
+    <!-- ===== Footer info: agenda penting + legenda warna ===== -->
+    <section class="footer-grid">
+      <div class="info-card">
+        <h3>📣 Agenda Penting Minggu Ini</h3>
+        <ul id="agendaPentingList"></ul>
+      </div>
+      <div class="info-card">
+        <h3>🎨 Keterangan Warna</h3>
+        <div class="legend-row"><span class="legend-dot dot-sumatif"></span> Sumatif</div>
+        <div class="legend-row"><span class="legend-dot dot-latihan"></span> Latihan Soal / LK</div>
+        <div class="legend-row"><span class="legend-dot dot-agenda"></span> Agenda Khusus</div>
+      </div>
+    </section>
+
+    <!-- ===== Detail Agenda Mingguan (update tiap Jumat) ===== -->
+    <section class="agenda-section">
+      <h2>📋 Detail Agenda Minggu Ini</h2>
+      <p class="agenda-period" id="agendaPeriod"></p>
+      <div class="agenda-grid" id="agendaGrid"></div>
+    </section>
+
+    <!-- ===== Tanda tangan ===== -->
+    <div class="signature" id="signatureBox"></div>
+
+    <footer class="made-with">
+      Dibuat dengan HTML • CSS • JavaScript — data dinamis dari file di folder <code>/data</code>
+    </footer>
+  </div>
+
+  <!--
+    ==========================================================================
+    DATA — ganti baris-baris di bawah ini untuk membuat jadwal kelas lain
+    (misal Kelas 4): buat file data baru dengan struktur sama, lalu ubah
+    src/URL-nya di sini. Logic di js/app.js TIDAK perlu diubah.
+    ==========================================================================
+  -->
+  <script>
+    // Path ke file periode/tanggal minggu berjalan (lihat folder data/).
+    // Ganti ini kalau nama file periode untuk kelas lain berbeda.
+    window.PERIODE_DATA_URL = "data/kelas2c-periode.json";
+  </script>
+  <script src="data/kelas2c-jadwal.js"></script>
+  <script src="data/kelas2c-agenda.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "_petunjuk": "Update file ini setiap minggu. 'periode_label' tampil di pojok kanan atas (Minggu Ini). 'tanggal' dipakai untuk sub-label tanggal di bawah nama hari pada header tabel & tab mobile.",
+
+  "periode_label": "21 - 25 September 2026",
+
+  "tanggal": {
+    "senin": "21 Sep 2026",
+    "selasa": "22 Sep 2026",
+    "rabu": "23 Sep 2026",
+    "kamis": "24 Sep 2026",
+    "jumat": "25 Sep 2026"
+  }
+}
