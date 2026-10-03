@@ -23,90 +23,80 @@
  * -----------------------------------------------------------------------
  */
 const AGENDA_DATA = {
+  {
   "mapel": {
     "B.Indonesia": [
       {
-        "jenis": "sumatif",
-        "keterangan": "Sumatif dan Latihan soal"
+        "jenis": "materi",
+        "keterangan": "Teks Deskripsi"
       }
     ],
     "B.Inggris": [
       {
-        "jenis": "materi",
-        "keterangan": "Time and Durations"
+        "jenis": "latihan",
+        "keterangan": "LK - Telling times"
       }
     ],
     "Matematika": [
       {
-        "jenis": "latihan",
-        "keterangan": "Latihan soal ATS dan persiapan sumatif Bab 2"
+        "jenis": "materi",
+        "keterangan": "Operasi Bilangan Cacah"
       }
     ],
     "IPAS": [
       {
         "jenis": "materi",
-        "keterangan": "Percobaan menanam biji kacang hijau, Bab 3 Perubahan wujud benda"
+        "keterangan": "Perubahan Wujud Benda"
       }
     ],
     "PJOK": [
       {
         "jenis": "materi",
-        "keterangan": "Permainan bola besar"
+        "keterangan": "Permainan tradisional"
       }
     ],
     "Seni Rupa": [
       {
         "jenis": "materi",
-        "keterangan": "Seni rupa membuat souvenir cup gelas"
-      }
-    ],
-    "Seni Musik": [
-      {
-        "jenis": "materi",
-        "keterangan": "Ragam jenis tari"
-      }
-    ],
-    "Seni Tari": [
-      {
-        "jenis": "materi",
-        "keterangan": "Ragam jenis tari"
+        "keterangan": "Membuat tempat pensil dari sedotan"
       }
     ],
     "Pancasila": [
       {
-        "jenis": "latihan",
-        "keterangan": "Latihan Soal persiapan ATS dan review materi ATS"
+        "jenis": "materi",
+        "keterangan": "Hak dan kewajiban anak di rumah"
       }
     ],
     "Komputer 1": [
       {
         "jenis": "sumatif",
-        "keterangan": "Sumatif test 1, membuat tabel di Microsoft Word"
+        "keterangan": "ATS Komputer"
       }
     ],
     "Agama": [
       {
-        "jenis": "sumatif",
-        "keterangan": "Sumatif: 1. Kisah Pembebasan Bangsa Israel dan Perjalanan di Padang Gurun dan 2. Sepuluh Perintah Allah"
+        "jenis": "materi",
+        "keterangan": "Bangsa Israel Memasuki Tanah Terjanji"
       }
     ],
     "PBP": [
       {
         "jenis": "materi",
-        "keterangan": "Menyusun paragraf untuk membuat cerita"
+        "keterangan": "Board Game"
       }
     ],
     "AKM": [
       {
         "jenis": "materi",
-        "keterangan": "Literasi"
+        "keterangan": "Numerasi"
       }
     ],
     "PKT": [
       {
         "jenis": "materi",
-        "keterangan": "Sikap Ugahari dalam Mencapai Keberhasilan"
+        "keterangan": "Berperilaku Disiplin Di Lingkungan Sekitarnya Sebagai Suatu Kebiasaan"
       }
     ]
   }
+}
 };
